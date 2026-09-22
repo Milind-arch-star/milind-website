@@ -1,0 +1,2478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Milind Shandilya | Technology leadership hiring, executive search and senior engineering talent."
+    >
+
+    <title>Milind Shandilya | Technology Leadership Hiring</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 104px;
+        }
+
+        body {
+            min-height: 100vh;
+            overflow-x: hidden;
+
+            color: #f8fafc;
+
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Arial,
+                sans-serif;
+
+            background:
+                radial-gradient(
+                    circle at 82% 12%,
+                    rgba(56, 189, 248, 0.15),
+                    transparent 26%
+                ),
+                radial-gradient(
+                    circle at 8% 44%,
+                    rgba(59, 130, 246, 0.08),
+                    transparent 28%
+                ),
+                linear-gradient(
+                    135deg,
+                    #07111f 0%,
+                    #0f172a 48%,
+                    #111827 100%
+                );
+        }
+
+        button,
+        a {
+            font-family: inherit;
+        }
+
+        .navigation {
+            width: 100%;
+            min-height: 92px;
+
+            padding: 20px 6%;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+
+            border-bottom:
+                1px solid rgba(255, 255, 255, 0.08);
+
+            background:
+                rgba(7, 17, 31, 0.82);
+
+            backdrop-filter:
+                blur(20px);
+        }
+
+        .logo-button {
+            border: none;
+            background: transparent;
+
+            color: #ffffff;
+
+            font-size: 25px;
+            font-weight: 850;
+            letter-spacing: 5px;
+
+            cursor: pointer;
+        }
+
+        .navigation-buttons {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .navigation-button {
+            padding: 11px 17px;
+
+            border:
+                1px solid transparent;
+
+            border-radius:
+                999px;
+
+            background:
+                transparent;
+
+            color:
+                #b8c3d3;
+
+            font-size:
+                14px;
+
+            font-weight:
+                650;
+
+            cursor:
+                pointer;
+
+            transition:
+                transform 0.25s ease,
+                color 0.25s ease,
+                background 0.25s ease,
+                border-color 0.25s ease;
+        }
+
+        .navigation-button:hover {
+            color: #ffffff;
+
+            border-color:
+                rgba(125, 211, 252, 0.3);
+
+            background:
+                rgba(125, 211, 252, 0.08);
+
+            transform:
+                translateY(-1px);
+        }
+
+        .connect-navigation-button {
+            margin-left: 4px;
+
+            padding-left: 23px;
+            padding-right: 23px;
+
+            color:
+                #07111f;
+
+            background:
+                #f8fafc;
+
+            border-color:
+                #f8fafc;
+        }
+
+        .connect-navigation-button:hover {
+            color: #07111f;
+            background: #ffffff;
+            border-color: #ffffff;
+
+            box-shadow:
+                0 10px 30px rgba(255, 255, 255, 0.16);
+        }
+
+        .hero {
+            width: 100%;
+            min-height: calc(100vh - 92px);
+
+            padding:
+                74px 6% 70px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-content {
+            width: 100%;
+            max-width: 1160px;
+
+            text-align: center;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            gap: 10px;
+
+            margin-bottom: 28px;
+
+            padding:
+                10px 18px;
+
+            border:
+                1px solid rgba(56, 189, 248, 0.25);
+
+            border-radius:
+                999px;
+
+            background:
+                rgba(56, 189, 248, 0.07);
+
+            color:
+                #7dd3fc;
+
+            font-size:
+                12px;
+
+            font-weight:
+                800;
+
+            letter-spacing:
+                2.2px;
+        }
+
+        .eyebrow-dot {
+            width: 7px;
+            height: 7px;
+
+            border-radius:
+                50%;
+
+            background:
+                #38bdf8;
+
+            box-shadow:
+                0 0 14px rgba(56, 189, 248, 0.85);
+        }
+
+        .main-heading {
+            max-width: 1080px;
+
+            margin:
+                0 auto;
+
+            color:
+                #f8fafc;
+
+            font-size:
+                clamp(54px, 7.2vw, 100px);
+
+            line-height:
+                0.96;
+
+            letter-spacing:
+                -4px;
+
+            font-weight:
+                900;
+        }
+
+        .heading-highlight {
+            color:
+                #7dd3fc;
+        }
+
+        .hero-summary {
+            max-width:
+                790px;
+
+            margin:
+                30px auto 0;
+
+            color:
+                #a9b5c6;
+
+            font-size:
+                20px;
+
+            line-height:
+                1.7;
+        }
+
+        .profile-name {
+            margin-top:
+                29px;
+
+            color:
+                #ffffff;
+
+            font-size:
+                18px;
+
+            font-weight:
+                800;
+        }
+
+        .profile-description {
+            margin-top:
+                8px;
+
+            color:
+                #7f8da3;
+
+            font-size:
+                16px;
+        }
+
+        .hero-buttons {
+            margin-top:
+                38px;
+
+            display:
+                flex;
+
+            justify-content:
+                center;
+
+            align-items:
+                center;
+
+            gap:
+                16px;
+
+            flex-wrap:
+                wrap;
+        }
+
+        .primary-button {
+            display:
+                inline-block;
+
+            min-width:
+                225px;
+
+            padding:
+                18px 30px;
+
+            border:
+                none;
+
+            border-radius:
+                999px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #7dd3fc 0%,
+                    #38bdf8 45%,
+                    #0284c7 100%
+                );
+
+            color:
+                #06101d;
+
+            font-size:
+                16px;
+
+            font-weight:
+                850;
+
+            text-align:
+                center;
+
+            text-decoration:
+                none;
+
+            cursor:
+                pointer;
+
+            box-shadow:
+                0 12px 32px rgba(14, 165, 233, 0.28),
+                inset 0 1px 0 rgba(255, 255, 255, 0.55);
+
+            transition:
+                transform 0.25s ease,
+                box-shadow 0.25s ease;
+        }
+
+        .primary-button:hover {
+            transform:
+                translateY(-3px);
+
+            box-shadow:
+                0 17px 38px rgba(14, 165, 233, 0.38),
+                inset 0 1px 0 rgba(255, 255, 255, 0.65);
+        }
+
+        .secondary-button {
+            display:
+                inline-block;
+
+            min-width:
+                190px;
+
+            padding:
+                17px 30px;
+
+            border:
+                1px solid rgba(255, 255, 255, 0.17);
+
+            border-radius:
+                999px;
+
+            background:
+                rgba(255, 255, 255, 0.055);
+
+            color:
+                #ffffff;
+
+            font-size:
+                16px;
+
+            font-weight:
+                800;
+
+            text-align:
+                center;
+
+            text-decoration:
+                none;
+
+            cursor:
+                pointer;
+
+            backdrop-filter:
+                blur(14px);
+
+            box-shadow:
+                inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+            transition:
+                transform 0.25s ease,
+                border-color 0.25s ease,
+                background 0.25s ease;
+        }
+
+        .secondary-button:hover {
+            transform:
+                translateY(-3px);
+
+            border-color:
+                rgba(125, 211, 252, 0.45);
+
+            background:
+                rgba(125, 211, 252, 0.1);
+        }
+
+        .experience-strip {
+            max-width:
+                1040px;
+
+            margin:
+                48px auto 0;
+
+            padding:
+                24px 28px;
+
+            border:
+                1px solid rgba(255, 255, 255, 0.08);
+
+            border-radius:
+                20px;
+
+            background:
+                rgba(255, 255, 255, 0.03);
+        }
+
+        .experience-label {
+            margin-bottom:
+                14px;
+
+            color:
+                #64748b;
+
+            font-size:
+                11px;
+
+            font-weight:
+                850;
+
+            letter-spacing:
+                2.4px;
+        }
+
+        .company-list {
+            display:
+                flex;
+
+            justify-content:
+                center;
+
+            align-items:
+                center;
+
+            gap:
+                12px 20px;
+
+            flex-wrap:
+                wrap;
+
+            color:
+                #b8c3d3;
+
+            font-size:
+                14px;
+
+            font-weight:
+                800;
+
+            letter-spacing:
+                1.2px;
+        }
+
+        .company-divider {
+            color:
+                #38bdf8;
+
+            opacity:
+                0.72;
+        }
+
+        .page-section {
+            width: 100%;
+
+            padding:
+                105px 6%;
+        }
+
+        .alternate-section {
+            background:
+                rgba(3, 10, 20, 0.27);
+
+            border-top:
+                1px solid rgba(255, 255, 255, 0.06);
+
+            border-bottom:
+                1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .section-container {
+            width: 100%;
+            max-width: 1180px;
+
+            margin:
+                0 auto;
+        }
+
+        .section-label {
+            color:
+                #38bdf8;
+
+            font-size:
+                12px;
+
+            font-weight:
+                850;
+
+            letter-spacing:
+                2.7px;
+
+            text-transform:
+                uppercase;
+        }
+
+        .section-heading {
+            max-width:
+                840px;
+
+            margin-top:
+                15px;
+
+            color:
+                #ffffff;
+
+            font-size:
+                clamp(38px, 5vw, 58px);
+
+            line-height:
+                1.08;
+
+            letter-spacing:
+                -1.8px;
+
+            font-weight:
+                850;
+        }
+
+        .section-introduction {
+            max-width:
+                780px;
+
+            margin-top:
+                20px;
+
+            color:
+                #8f9db1;
+
+            font-size:
+                18px;
+
+            line-height:
+                1.8;
+        }
+
+        .about-layout {
+            display:
+                grid;
+
+            grid-template-columns:
+                1.25fr 0.75fr;
+
+            gap:
+                70px;
+
+            align-items:
+                center;
+        }
+
+        .about-copy {
+            margin-top:
+                26px;
+        }
+
+        .about-copy p {
+            color:
+                #aab6c7;
+
+            font-size:
+                18px;
+
+            line-height:
+                1.9;
+        }
+
+        .about-copy p + p {
+            margin-top:
+                20px;
+        }
+
+        .about-highlight {
+            color:
+                #ffffff;
+
+            font-weight:
+                700;
+        }
+
+        .about-quote-card {
+            position:
+                relative;
+
+            padding:
+                42px;
+
+            overflow:
+                hidden;
+
+            border:
+                1px solid rgba(125, 211, 252, 0.16);
+
+            border-radius:
+                28px;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(56, 189, 248, 0.09),
+                    rgba(255, 255, 255, 0.025)
+                );
+
+            box-shadow:
+                0 24px 70px rgba(0, 0, 0, 0.22);
+        }
+
+        .about-quote-card::before {
+            content: "";
+
+            position:
+                absolute;
+
+            width:
+                170px;
+
+            height:
+                170px;
+
+            top:
+                -80px;
+
+            right:
+                -60px;
+
+            border-radius:
+                50%;
+
+            background:
+                rgba(56, 189, 248, 0.17);
+
+            filter:
+                blur(35px);
+        }
+
+        .quote-symbol {
+            color:
+                #38bdf8;
+
+            font-size:
+                65px;
+
+            line-height:
+                0.7;
+
+            font-weight:
+                900;
+        }
+
+        .quote-text {
+            position:
+                relative;
+
+            margin-top:
+                22px;
+
+            color:
+                #f8fafc;
+
+            font-size:
+                24px;
+
+            line-height:
+                1.45;
+
+            font-weight:
+                750;
+
+            letter-spacing:
+                -0.4px;
+        }
+
+        .quote-footer {
+            margin-top:
+                26px;
+
+            color:
+                #7f8da3;
+
+            font-size:
+                14px;
+
+            font-weight:
+                700;
+
+            letter-spacing:
+                0.5px;
+        }
+
+        .impact-grid {
+            margin-top:
+                50px;
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap:
+                18px;
+        }
+
+        .impact-card {
+            min-height:
+                210px;
+
+            padding:
+                30px;
+
+            display:
+                flex;
+
+            flex-direction:
+                column;
+
+            justify-content:
+                space-between;
+
+            border:
+                1px solid rgba(255, 255, 255, 0.085);
+
+            border-radius:
+                24px;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(255, 255, 255, 0.055),
+                    rgba(255, 255, 255, 0.018)
+                );
+
+            box-shadow:
+                0 20px 50px rgba(0, 0, 0, 0.15);
+
+            transition:
+                transform 0.28s ease,
+                border-color 0.28s ease,
+                background 0.28s ease;
+        }
+
+        .impact-card:hover {
+            transform:
+                translateY(-7px);
+
+            border-color:
+                rgba(125, 211, 252, 0.3);
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(56, 189, 248, 0.1),
+                    rgba(255, 255, 255, 0.024)
+                );
+        }
+
+        .impact-number {
+            color:
+                #7dd3fc;
+
+            font-size:
+                48px;
+
+            line-height:
+                1;
+
+            font-weight:
+                900;
+
+            letter-spacing:
+                -1.8px;
+        }
+
+        .impact-wide-value {
+            font-size:
+                28px;
+
+            line-height:
+                1.1;
+        }
+
+        .impact-title {
+            margin-top:
+                22px;
+
+            color:
+                #ffffff;
+
+            font-size:
+                18px;
+
+            font-weight:
+                800;
+        }
+
+        .impact-description {
+            margin-top:
+                8px;
+
+            color:
+                #7f8da3;
+
+            font-size:
+                14px;
+
+            line-height:
+                1.55;
+        }
+
+        .journey-grid {
+            margin-top:
+                50px;
+
+            display:
+                grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap:
+                20px;
+        }
+
+        .career-card {
+            position:
+                relative;
+
+            min-height:
+                330px;
+
+            padding:
+                30px;
+
+            display:
+                flex;
+
+            flex-direction:
+                column;
+
+            overflow:
+                hidden;
+
+            border:
+                1px solid rgba(255, 255, 255, 0.085);
+
+            border-radius:
+                25px;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(255, 255, 255, 0.052),
+                    rgba(255, 255, 255, 0.018)
+                );
+
+            transition:
+                transform 0.28s ease,
+                border-color 0.28s ease,
+                box-shadow 0.28s ease;
+        }
+
+        .career-card:hover {
+            transform:
+                translateY(-7px);
+
+            border-color:
+                rgba(125, 211, 252, 0.3);
+
+            box-shadow:
+                0 25px 60px rgba(0, 0, 0, 0.22);
+        }
+
+        .career-card.current-card {
+            grid-column:
+                span 2;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(56, 189, 248, 0.12),
+                    rgba(255, 255, 255, 0.025)
+                );
+
+            border-color:
+                rgba(56, 189, 248, 0.24);
+        }
+
+        .career-top-row {
+            display:
+                flex;
+
+            justify-content:
+                space-between;
+
+            align-items:
+                flex-start;
+
+            gap:
+                14px;
+
+            flex-wrap:
+                wrap;
+        }
+
+        .career-status {
+            display:
+                inline-flex;
+
+            align-items:
+                center;
+
+            gap:
+                8px;
+
+            padding:
+                7px 11px;
+
+            border:
+                1px solid rgba(56, 189, 248, 0.24);
+
+            border-radius:
+                999px;
+
+            background:
+                rgba(56, 189, 248, 0.08);
+
+            color:
+                #7dd3fc;
+
+            font-size:
+                10px;
+
+            font-weight:
+                850;
+
+            letter-spacing:
+                1.6px;
+        }
+
+        .status-dot {
+            width:
+                6px;
+
+            height:
+                6px;
+
+            border-radius:
+                50%;
+
+            background:
+                #38bdf8;
+
+            box-shadow:
+                0 0 12px rgba(56, 189, 248, 0.85);
+        }
+
+        .career-tenure {
+            color:
+                #7f8da3;
+
+            font-size:
+                12px;
+
+            font-weight:
+                750;
+
+            line-height:
+                1.5;
+
+            text-align:
+                right;
+        }
+
+        .career-company {
+            margin-top:
+                25px;
+
+            color:
+                #ffffff;
+
+            font-size:
+                29px;
+
+            font-weight:
+                900;
+
+            letter-spacing:
+                1px;
+        }
+
+        .career-category {
+            margin-top:
+                8px;
+
+            color:
+                #7f8da3;
+
+            font-size:
+                14px;
+
+            line-height:
+                1.5;
+        }
+
+        .career-tags {
+            margin-top:
+                auto;
+
+            padding-top:
+                28px;
+
+            display:
+                flex;
+
+            gap:
+                9px;
+
+            flex-wrap:
+                wrap;
+        }
+
+        .career-tag {
+            padding:
+                8px 12px;
+
+            border:
+                1px solid rgba(255, 255, 255, 0.09);
+
+            border-radius:
+                999px;
+
+            background:
+                rgba(255, 255, 255, 0.04);
+
+            color:
+                #b8c3d3;
+
+            font-size:
+                12px;
+
+            font-weight:
+                700;
+        }
+
+        .focus-section {
+            padding:
+                105px 6%;
+
+            background:
+                rgba(3, 10, 20, 0.33);
+
+            border-top:
+                1px solid rgba(255, 255, 255, 0.07);
+
+            border-bottom:
+                1px solid rgba(255, 255, 255, 0.07);
+        }
+
+        .focus-card {
+            max-width:
+                1080px;
+
+            margin:
+                0 auto;
+
+            padding:
+                58px;
+
+            border:
+                1px solid rgba(255, 255, 255, 0.09);
+
+            border-radius:
+                30px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    rgba(255, 255, 255, 0.065),
+                    rgba(255, 255, 255, 0.025)
+                );
+
+            box-shadow:
+                0 25px 70px rgba(0, 0, 0, 0.22);
+        }
+
+        .focus-label {
+            color:
+                #38bdf8;
+
+            font-size:
+                12px;
+
+            font-weight:
+                850;
+
+            letter-spacing:
+                2.5px;
+
+            text-align:
+                center;
+        }
+
+        .focus-heading {
+            margin-top:
+                15px;
+
+            color:
+                #ffffff;
+
+            font-size:
+                clamp(37px, 4.5vw, 50px);
+
+            line-height:
+                1.16;
+
+            text-align:
+                center;
+
+            letter-spacing:
+                -1.3px;
+        }
+
+        .focus-text {
+            max-width:
+                900px;
+
+            margin:
+                27px auto 0;
+
+            color:
+                #aab6c7;
+
+            font-size:
+                19px;
+
+            line-height:
+                1.9;
+
+            text-align:
+                center;
+        }
+
+        .focus-highlight {
+            color:
+                #f8fafc;
+
+            font-weight:
+                700;
+        }
+
+        .connect-section {
+            padding:
+                68px 6% 76px;
+
+            text-align:
+                center;
+        }
+
+        .connect-card {
+            max-width:
+                980px;
+
+            margin:
+                0 auto;
+
+            padding:
+                44px 34px;
+
+            position:
+                relative;
+
+            overflow:
+                hidden;
+
+            border:
+                1px solid rgba(125, 211, 252, 0.13);
+
+            border-radius:
+                32px;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    rgba(56, 189, 248, 0.08),
+                    rgba(255, 255, 255, 0.025)
+                );
+        }
+
+        .connect-card::before {
+            content: "";
+
+            position:
+                absolute;
+
+            width:
+                260px;
+
+            height:
+                260px;
+
+            left:
+                50%;
+
+            top:
+                -190px;
+
+            transform:
+                translateX(-50%);
+
+            border-radius:
+                50%;
+
+            background:
+                rgba(56, 189, 248, 0.2);
+
+            filter:
+                blur(55px);
+        }
+
+        .connect-heading {
+            position:
+                relative;
+
+            margin-top:
+                12px;
+
+            color:
+                #ffffff;
+
+            font-size:
+                clamp(38px, 5vw, 56px);
+
+            letter-spacing:
+                -1.4px;
+        }
+
+        .connect-text {
+            position:
+                relative;
+
+            max-width:
+                720px;
+
+            margin:
+                20px auto 0;
+
+            color:
+                #9aa8ba;
+
+            font-size:
+                18px;
+
+            line-height:
+                1.75;
+        }
+
+        .contact-bar {
+            position:
+                relative;
+
+            max-width:
+                900px;
+
+            margin:
+                30px auto 0;
+
+            padding:
+                15px 22px;
+
+            display:
+                flex;
+
+            justify-content:
+                center;
+
+            align-items:
+                center;
+
+            gap:
+                14px;
+
+            border:
+                1px solid rgba(255, 255, 255, 0.09);
+
+            border-radius:
+                999px;
+
+            background:
+                rgba(255, 255, 255, 0.04);
+        }
+
+        .contact-link {
+            color:
+                #cbd5e1;
+
+            font-size:
+                14px;
+
+            font-weight:
+                700;
+
+            text-decoration:
+                none;
+
+            white-space:
+                nowrap;
+
+            transition:
+                color 0.25s ease;
+        }
+
+        .contact-link:hover {
+            color:
+                #7dd3fc;
+        }
+
+        .contact-divider {
+            color:
+                #38bdf8;
+
+            opacity:
+                0.55;
+        }
+
+        .footer {
+            padding:
+                26px 6%;
+
+            color:
+                #58677b;
+
+            font-size:
+                13px;
+
+            text-align:
+                center;
+
+            border-top:
+                1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        @media (max-width: 1040px) {
+
+            .about-layout {
+                grid-template-columns:
+                    1fr;
+
+                gap:
+                    42px;
+            }
+
+            .impact-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+            .journey-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+            .career-card.current-card {
+                grid-column:
+                    span 2;
+            }
+
+        }
+
+        @media (max-width: 760px) {
+
+            html {
+                scroll-padding-top:
+                    175px;
+            }
+
+            .navigation {
+                padding:
+                    18px 5%;
+
+                flex-direction:
+                    column;
+
+                gap:
+                    17px;
+            }
+
+            .navigation-buttons {
+                width:
+                    100%;
+
+                justify-content:
+                    center;
+
+                flex-wrap:
+                    wrap;
+
+                gap:
+                    4px;
+            }
+
+            .navigation-button {
+                padding:
+                    9px 10px;
+
+                font-size:
+                    12px;
+            }
+
+            .connect-navigation-button {
+                padding-left:
+                    16px;
+
+                padding-right:
+                    16px;
+            }
+
+            .hero {
+                min-height:
+                    auto;
+
+                padding:
+                    65px 5% 70px;
+            }
+
+            .main-heading {
+                letter-spacing:
+                    -2px;
+            }
+
+            .hero-summary {
+                font-size:
+                    18px;
+            }
+
+            .page-section {
+                padding:
+                    82px 5%;
+            }
+
+            .impact-grid {
+                grid-template-columns:
+                    1fr;
+            }
+
+            .journey-grid {
+                grid-template-columns:
+                    1fr;
+            }
+
+            .career-card.current-card {
+                grid-column:
+                    span 1;
+            }
+
+            .career-top-row {
+                align-items:
+                    flex-start;
+
+                flex-direction:
+                    column;
+            }
+
+            .career-tenure {
+                text-align:
+                    left;
+            }
+
+            .focus-section {
+                padding:
+                    82px 5%;
+            }
+
+            .focus-card {
+                padding:
+                    39px 22px;
+            }
+
+            .focus-text {
+                font-size:
+                    17px;
+            }
+
+            .about-quote-card {
+                padding:
+                    33px 25px;
+            }
+
+            .quote-text {
+                font-size:
+                    21px;
+            }
+
+            .experience-strip {
+                padding:
+                    22px 18px;
+            }
+
+            .company-divider {
+                display:
+                    none;
+            }
+
+            .company-list {
+                gap:
+                    14px 22px;
+            }
+
+            .connect-section {
+                padding:
+                    75px 5% 85px;
+            }
+
+            .connect-card {
+                padding:
+                    38px 18px;
+            }
+
+            .contact-bar {
+                border-radius:
+                    22px;
+
+                flex-direction:
+                    column;
+
+                gap:
+                    10px;
+            }
+
+            .contact-divider {
+                display:
+                    none;
+            }
+
+            .primary-button,
+            .secondary-button {
+                width:
+                    100%;
+
+                max-width:
+                    330px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navigation">
+
+        <button
+            class="logo-button"
+            onclick="document.getElementById('home').scrollIntoView()"
+        >
+            MILIND
+        </button>
+
+        <div class="navigation-buttons">
+
+            <button
+                class="navigation-button"
+                onclick="document.getElementById('about').scrollIntoView()"
+            >
+                About
+            </button>
+
+            <button
+                class="navigation-button"
+                onclick="document.getElementById('impact').scrollIntoView()"
+            >
+                Impact
+            </button>
+
+            <button
+                class="navigation-button"
+                onclick="document.getElementById('journey').scrollIntoView()"
+            >
+                Journey
+            </button>
+
+            <button
+                class="navigation-button"
+                onclick="document.getElementById('expertise').scrollIntoView()"
+            >
+                Current Focus
+            </button>
+
+            <button
+                class="navigation-button connect-navigation-button"
+                onclick="document.getElementById('connect').scrollIntoView()"
+            >
+                Connect
+            </button>
+
+        </div>
+
+    </nav>
+
+    <main>
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+
+                    <span class="eyebrow-dot"></span>
+
+                    EXECUTIVE SEARCH | LEADERSHIP HIRING
+
+                </div>
+
+                <h1 class="main-heading">
+
+                    BUILDING THE TEAMS<br>
+
+                    BEHIND
+
+                    <span class="heading-highlight">
+                        MODERN TECHNOLOGY
+                    </span>
+
+                </h1>
+
+                <p class="hero-summary">
+
+                    10+ years of technology hiring across leading product,
+                    enterprise software and innovation-driven organizations.
+
+                </p>
+
+                <div class="profile-name">
+                    Milind Shandilya
+                </div>
+
+                <div class="profile-description">
+                    The Recruiter Behind Engineering Leaders
+                </div>
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="primary-button"
+                        onclick="document.getElementById('journey').scrollIntoView()"
+                    >
+                        Explore My Journey &nbsp; &#8594;
+                    </button>
+
+                    <button
+                        class="secondary-button"
+                        onclick="document.getElementById('connect').scrollIntoView()"
+                    >
+                        Let's Connect
+                    </button>
+
+                </div>
+
+                <div class="experience-strip">
+
+                    <div class="experience-label">
+                        EXPERIENCE ACROSS
+                    </div>
+
+                    <div class="company-list">
+
+                        <span>NIKE</span>
+                        <span class="company-divider">|</span>
+
+                        <span>CELONIS</span>
+                        <span class="company-divider">|</span>
+
+                        <span>ALPHASENSE</span>
+                        <span class="company-divider">|</span>
+
+                        <span>VMWARE</span>
+                        <span class="company-divider">|</span>
+
+                        <span>TARGET</span>
+                        <span class="company-divider">|</span>
+
+                        <span>UIPATH</span>
+                        <span class="company-divider">|</span>
+
+                        <span>SNAPDEAL</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            class="page-section alternate-section"
+            id="about"
+        >
+
+            <div class="section-container about-layout">
+
+                <div>
+
+                    <div class="section-label">
+                        About
+                    </div>
+
+                    <h2 class="section-heading">
+                        A Decade of Building Technology Teams
+                    </h2>
+
+                    <div class="about-copy">
+
+                        <p>
+
+                            Over the last
+
+                            <span class="about-highlight">
+                                10+ years
+                            </span>,
+
+                            I have partnered with respected technology
+                            organizations to identify, engage and hire
+                            exceptional talent across engineering, product,
+                            data and platform organizations.
+
+                        </p>
+
+                        <p>
+
+                            My journey spans global consumer brands,
+                            enterprise software pioneers and high-growth
+                            technology companies, including
+
+                            <span class="about-highlight">
+
+                                Nike, Celonis, AlphaSense, VMware,
+                                Target, UiPath and Snapdeal.
+
+                            </span>
+
+                        </p>
+
+                        <p>
+
+                            Today, I focus on technology leadership hiring,
+                            partnering with senior executives, HR Business
+                            Partners and Total Rewards leaders to build teams
+                            capable of creating meaningful, long-term
+                            business impact.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="about-quote-card">
+
+                    <div class="quote-symbol">
+                        “
+                    </div>
+
+                    <div class="quote-text">
+
+                        Technology hiring is not simply about filling roles.
+                        It is about understanding the business, earning
+                        stakeholder trust and connecting exceptional leaders
+                        with opportunities to create lasting impact.
+
+                    </div>
+
+                    <div class="quote-footer">
+                        MILIND SHANDILYA
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            class="page-section"
+            id="impact"
+        >
+
+            <div class="section-container">
+
+                <div class="section-label">
+                    Impact
+                </div>
+
+                <h2 class="section-heading">
+                    Experience Built Across Technology and Leadership
+                </h2>
+
+                <p class="section-introduction">
+
+                    A career shaped by technology hiring, complex leadership
+                    mandates and close partnership with senior business and
+                    people leaders.
+
+                </p>
+
+                <div class="impact-grid">
+
+                    <div class="impact-card">
+
+                        <div class="impact-number">
+                            10+
+                        </div>
+
+                        <div>
+
+                            <div class="impact-title">
+                                Years of Experience
+                            </div>
+
+                            <div class="impact-description">
+
+                                Technology hiring across product,
+                                enterprise and innovation-led organizations.
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="impact-card">
+
+                        <div class="impact-number impact-wide-value">
+                            NIKE
+                        </div>
+
+                        <div>
+
+                            <div class="impact-title">
+                                Leadership Hiring
+                            </div>
+
+                            <div class="impact-description">
+
+                                Senior technology leadership and
+                                distinguished engineering talent.
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="impact-card">
+
+                        <div class="impact-number impact-wide-value">
+                            DIRECTOR+
+                        </div>
+
+                        <div>
+
+                            <div class="impact-title">
+                                Executive Search
+                            </div>
+
+                            <div class="impact-description">
+
+                                Director, Senior Director and complex
+                                technology leadership mandates.
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="impact-card">
+
+                        <div class="impact-number impact-wide-value">
+                            CLOUD | AI
+                        </div>
+
+                        <div>
+
+                            <div class="impact-title">
+                                Platform Technology
+                            </div>
+
+                            <div class="impact-description">
+
+                                Broad hiring experience across modern
+                                engineering and technology domains.
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            class="page-section alternate-section"
+            id="journey"
+        >
+
+            <div class="section-container">
+
+                <div class="section-label">
+                    Career Journey
+                </div>
+
+                <h2 class="section-heading">
+                    Built Across Distinct Technology Ecosystems
+                </h2>
+
+                <p class="section-introduction">
+
+                    Experience across global consumer brands, enterprise
+                    software, cloud infrastructure, automation, artificial
+                    intelligence and consumer internet businesses.
+
+                </p>
+
+                <div class="journey-grid">
+
+                    <div class="career-card current-card">
+
+                        <div class="career-top-row">
+
+                            <div class="career-status">
+
+                                <span class="status-dot"></span>
+
+                                CURRENT
+
+                            </div>
+
+                            <div class="career-tenure">
+
+                                May 2026 - Present<br>
+                                5 months
+
+                            </div>
+
+                        </div>
+
+                        <div class="career-company">
+                            NIKE
+                        </div>
+
+                        <div class="career-category">
+                            Technology Leadership Hiring
+                        </div>
+
+                        <div class="career-tags">
+
+                            <span class="career-tag">
+                                Leadership Hiring
+                            </span>
+
+                            <span class="career-tag">
+                                Cloud Infrastructure
+                            </span>
+
+                            <span class="career-tag">
+                                Developer Platforms
+                            </span>
+
+                            <span class="career-tag">
+                                Data & AI
+                            </span>
+
+                            <span class="career-tag">
+                                Enterprise Platforms
+                            </span>
+
+                            <span class="career-tag">
+                                Distinguished Engineering
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="career-card">
+
+                        <div class="career-top-row">
+
+                            <div class="career-status">
+                                ENTERPRISE SOFTWARE
+                            </div>
+
+                            <div class="career-tenure">
+
+                                Mar 2025 - Apr 2026<br>
+                                1 year 2 months
+
+                            </div>
+
+                        </div>
+
+                        <div class="career-company">
+                            CELONIS
+                        </div>
+
+                        <div class="career-category">
+                            Enterprise Technology
+                        </div>
+
+                        <div class="career-tags">
+
+                            <span class="career-tag">
+                                Technology Hiring
+                            </span>
+
+                            <span class="career-tag">
+                                Enterprise Software
+                            </span>
+
+                            <span class="career-tag">
+                                Stakeholder Partnership
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="career-card">
+
+                        <div class="career-top-row">
+
+                            <div class="career-status">
+                                AI INTELLIGENCE
+                            </div>
+
+                            <div class="career-tenure">
+
+                                Mar 2024 - Jan 2025<br>
+                                11 months
+
+                            </div>
+
+                        </div>
+
+                        <div class="career-company">
+                            ALPHASENSE
+                        </div>
+
+                        <div class="career-category">
+                            AI and Search Intelligence
+                        </div>
+
+                        <div class="career-tags">
+
+                            <span class="career-tag">
+                                Artificial Intelligence
+                            </span>
+
+                            <span class="career-tag">
+                                Product Engineering
+                            </span>
+
+                            <span class="career-tag">
+                                Data
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="career-card">
+
+                        <div class="career-top-row">
+
+                            <div class="career-status">
+                                CLOUD
+                            </div>
+
+                            <div class="career-tenure">
+
+                                Nov 2021 - Feb 2024<br>
+                                2 years 4 months
+
+                            </div>
+
+                        </div>
+
+                        <div class="career-company">
+                            VMWARE
+                        </div>
+
+                        <div class="career-category">
+                            Cloud Infrastructure
+                        </div>
+
+                        <div class="career-tags">
+
+                            <span class="career-tag">
+                                Cloud
+                            </span>
+
+                            <span class="career-tag">
+                                Infrastructure
+                            </span>
+
+                            <span class="career-tag">
+                                Engineering
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="career-card">
+
+                        <div class="career-top-row">
+
+                            <div class="career-status">
+                                RETAIL TECHNOLOGY
+                            </div>
+
+                            <div class="career-tenure">
+
+                                Oct 2019 - Nov 2021<br>
+                                2 years 2 months
+
+                            </div>
+
+                        </div>
+
+                        <div class="career-company">
+                            TARGET
+                        </div>
+
+                        <div class="career-category">
+                            Global Retail Technology
+                        </div>
+
+                        <div class="career-tags">
+
+                            <span class="career-tag">
+                                Product
+                            </span>
+
+                            <span class="career-tag">
+                                Engineering
+                            </span>
+
+                            <span class="career-tag">
+                                Enterprise Scale
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="career-card">
+
+                        <div class="career-top-row">
+
+                            <div class="career-status">
+                                AUTOMATION
+                            </div>
+
+                            <div class="career-tenure">
+
+                                Dec 2018 - Nov 2019<br>
+                                1 year
+
+                            </div>
+
+                        </div>
+
+                        <div class="career-company">
+                            UIPATH
+                        </div>
+
+                        <div class="career-category">
+                            Automation and AI
+                        </div>
+
+                        <div class="career-tags">
+
+                            <span class="career-tag">
+                                Automation
+                            </span>
+
+                            <span class="career-tag">
+                                Artificial Intelligence
+                            </span>
+
+                            <span class="career-tag">
+                                Software
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="career-card">
+
+                        <div class="career-top-row">
+
+                            <div class="career-status">
+                                CONSUMER INTERNET
+                            </div>
+
+                            <div class="career-tenure">
+                                Earlier Career
+                            </div>
+
+                        </div>
+
+                        <div class="career-company">
+                            SNAPDEAL
+                        </div>
+
+                        <div class="career-category">
+                            Consumer Technology
+                        </div>
+
+                        <div class="career-tags">
+
+                            <span class="career-tag">
+                                Consumer Internet
+                            </span>
+
+                            <span class="career-tag">
+                                Technology Hiring
+                            </span>
+
+                            <span class="career-tag">
+                                Scale
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section
+            class="focus-section"
+            id="expertise"
+        >
+
+            <div class="focus-card">
+
+                <div class="focus-label">
+                    CURRENT FOCUS
+                </div>
+
+                <h2 class="focus-heading">
+                    Leadership Hiring at Technology Scale
+                </h2>
+
+                <p class="focus-text">
+
+                    Partnering with senior technology executives to build
+                    high-impact engineering organizations across
+
+                    <span class="focus-highlight">
+                        Product
+                    </span>,
+
+                    <span class="focus-highlight">
+                        Data and AI
+                    </span>,
+
+                    <span class="focus-highlight">
+                        Enterprise Platforms
+                    </span>,
+
+                    <span class="focus-highlight">
+                        Runtime Infrastructure
+                    </span>,
+
+                    <span class="focus-highlight">
+                        Cloud
+                    </span>
+
+                    and
+
+                    <span class="focus-highlight">
+                        Developer Platforms
+                    </span>.
+
+                    <br><br>
+
+                    Supporting Director, Senior Director and Distinguished
+                    Engineer hiring while partnering with Vice Presidents,
+                    HR Business Partners and Total Rewards leaders on
+                    strategic talent decisions.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <section
+            class="connect-section"
+            id="connect"
+        >
+
+            <div class="connect-card">
+
+                <div class="section-label">
+                    Connect
+                </div>
+
+                <h2 class="connect-heading">
+                    Let's Build What Comes Next
+                </h2>
+
+                <p class="connect-text">
+
+                    Open to connecting with technology leaders, builders,
+                    innovators and hiring executives who are shaping the next
+                    generation of engineering organizations.
+
+                </p>
+
+                <div class="contact-bar">
+
+                    <a
+                        class="contact-link"
+                        href="mailto:Milindshandilya991@gmail.com"
+                    >
+                        Email: Milindshandilya991@gmail.com
+                    </a>
+
+                    <span class="contact-divider">|</span>
+
+                    <a
+                        class="contact-link"
+                        href="tel:+919891581909"
+                    >
+                        Call: +91 98915 81909
+                    </a>
+
+                    <span class="contact-divider">|</span>
+
+                    <a
+                        class="contact-link"
+                        href="https://www.linkedin.com/in/milindshandilya"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+
+                </div>
+
+                <div class="hero-buttons">
+
+                    <a
+                        class="primary-button"
+                        href="mailto:Milindshandilya991@gmail.com"
+                    >
+                        Email Me &nbsp; &#8594;
+                    </a>
+
+                    <a
+                        class="secondary-button"
+                        href="https://www.linkedin.com/in/milindshandilya"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        Milind Shandilya | Technology Leadership Hiring
+
+    </footer>
+
+</body>
+
+</html>
